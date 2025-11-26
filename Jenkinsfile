@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/ANKITH33/SE_Assignment'
+                    url: 'https://github.com/ANKITH33/To_Do_List'
             }
         }
 
